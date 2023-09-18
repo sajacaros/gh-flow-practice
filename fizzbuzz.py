@@ -6,8 +6,10 @@ def fizzbuzz(num: int):
     :return:  None
     """
     for n in range(1, num+1):
-        if n%3==0:
+        if n % 3 == 0:
             print('fizz')
+        elif n % 5 == 0:
+            print('buzz')
         else:
             print(n)
 
